@@ -1,0 +1,193 @@
+
+/* font lettertype*/
+@font-face{
+    font-family: Trends;
+    src: url(Trends.ttf);
+}
+
+/* achtergrond voor de navbar*/
+header{
+    height: 3.5em;
+    background-image: linear-gradient(to right, black, rgb(121,81,255), rgb(188,126,255)) ;
+
+}
+/* achtergrond kleur*/
+body{
+    background-image: linear-gradient(180deg, rgb(172,162,233), rgb(92,97,227));
+    margin: 0;   
+} 
+
+/* opmaak navbar*/
+nav{
+    display: flex;
+}    
+nav .logo img{
+    height: 55px;
+    width: auto;
+    padding: 0;
+    margin-right: auto;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-left: 49%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Trends, sans-serif;
+    font-size: 1.5625em;
+    padding-right: 1em;
+    transition: 0.3s ease;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* opmaak home page*/
+main{
+    height: 35em;
+}
+main h1{
+    color: rgb(48, 33,137);
+    font-family: Trends ;
+    padding-left: 1em;
+    margin: 1em;
+    font-size: 2.1875em;
+} 
+main p{
+    padding-left: 3em;
+    width: 10em;
+    font-size: 1.875em;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(48, 33,137);
+}
+.profiel {
+    width: 35em;
+    position: absolute;
+    left: 31.25em;
+    bottom: 1.875em;
+}
+.quote {
+    width: 15em;
+    position: absolute;
+    right: 46.875em;
+    bottom: 1.25em;
+}
+.quote:hover{
+    transform: scale(1.3);
+    transition: 0.3s ease;
+}
+
+/* opmaak over ons pagina*/
+section{
+    padding-left: 3em;
+}
+section h1{
+    color: rgb(48, 33,137);
+    font-family: Trends ;
+    font-size: 2.5em;
+}
+section h2{
+    font-family: Trends;
+    color: rgb(48, 33,137);  
+}
+section p {
+    color: rgb(48, 33,137);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    width: 30em;    
+} 
+.ouassima, .fernando {
+position:absolute;
+}
+.ouassima {
+    width: 18.125em;
+    bottom: 1.875em;
+    left: 40.625em;
+}
+.fernando{
+    width: 12.5em;
+    top: 30em;
+   left: 56.25em;
+}
+
+/* opmaak afleveringen page*/
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    padding: 5em;
+}
+.flex-container img {
+    width: 15.625rem; 
+    height: auto; 
+    border-radius: 0.5rem;
+}
+.flex-container li{
+width: 30%;
+}
+.flex-container h2{
+    font-family: Trends;
+    color: rgb(48, 33,137);
+}
+.flex-container h3{
+    color: rgb(48, 33,137);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em; 
+    transition: 0.3s ease; 
+}
+.flex-container h3:hover{
+    color: rgb(247, 137, 255);
+    cursor: pointer;
+}
+.afleveringen-titel {
+    font-family: Trends;
+    color: rgb(48, 33,137); 
+    padding-left: 12em;
+    padding-top: 1em;
+}
+
+/* opmaak shop page*/
+.shop-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 2.5em;
+    list-style-type: none;
+    padding: 4em;
+}
+.shop-container img{
+    width: 15.625rem; 
+    height: auto; 
+    border-radius: 0.5rem;  
+}
+.shop-container li{
+    width: 18.75rem;
+}
+.shop-container h2{
+    font-family: Trends;
+    color: rgb(48, 33,137);
+    margin-left: 0.5em;
+    transition: 0.3s ease;
+}
+.shop-container h3{
+    margin-left: 0.5em;
+    color: rgb(48, 33,137);
+    font-family: Helvetica, Arial, sans-serif; 
+}
+.shop-titel{
+    font-family: Trends;
+    color: rgb(48, 33,137); 
+    padding-left: 9em;
+    padding-top: 1em;
+}
+.shop-container h2:hover{
+    color: rgb(247, 137, 255); 
+    cursor: pointer;
+}
